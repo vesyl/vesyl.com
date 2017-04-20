@@ -1,0 +1,32 @@
+
+/* background color css */
+.home-3 .header-area {
+  background: #3a1207 ;
+}
+
+.home-3 .mainmenu ul#nav > li > a::before, .user-login-menu ul li a::before ,.home-3 .features-img span,.home-3 .features-img input[type="button"],.home-3 #scrollUp,.home-3 .button-shop a i,.home-3 .product-cart-drop > a{
+  background: #FF8B6C!important;
+}
+
+
+
+
+
+
+/* color css */
+.home-3 .mainmenu ul#nav li .mega-menu-shop > span > a,.home-3 .fea-rating a i,.home-3 .tes-author span.tes-title a{
+  color: #FF8B6C;
+}
+
+.home-3 .header-top-menu ul li a,.home-3 span.search-button i,.home-3 span.cart-empty,.home-3 .cart-empty i,.home-3 .cart-empty > a{color: rgba(246, 173, 154, 0.77);}
+
+.home-3 .header-top-menu ul li ul li a {
+  color: #d5d5d5;
+}
+
+.home-3 a.read-more {
+  border: 2px solid #FF8B6C;
+}
+.home-3 a.read-more:hover {
+  background: #FF8B6C none repeat scroll 0 0;
+}

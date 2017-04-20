@@ -1,0 +1,21 @@
+
+/* background color css */
+.home-5 .header-area {
+  background: #2B4444 ;
+}
+
+.home-5 .mainmenu ul#nav > li > a::before, .user-login-menu ul li a::before ,.home-5 .features-img span,.home-5 .features-img input[type="button"],.home-5 #scrollUp,.home-5 .button-shop a i,.home-5 .product-cart-drop > a{
+  background: #10C7C7!important;
+}
+
+
+/* color css */
+.home-5 .mainmenu ul#nav li .mega-menu-shop > span > a,.home-5 .fea-rating a i,.home-5 .tes-author span.tes-title a,.home-5 .customer-date span.cus-cat a,.home-5 .customer-content h3 a:hover{
+  color: #10C7C7;
+}
+
+.home-5 .header-top-menu ul li a,.home-5 span.search-button i,.home-5 span.cart-empty,.home-5 .cart-empty i,.home-5 .cart-empty > a{color: rgba(121, 239, 239, 0.6)}
+
+.home-5 .header-top-menu ul li ul li a {
+  color: #d5d5d5;
+}

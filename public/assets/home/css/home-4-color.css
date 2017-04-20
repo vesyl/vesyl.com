@@ -1,0 +1,43 @@
+
+/* background color css */
+.home-4 .header-area {
+  background: #14333D ;
+}
+
+.home-4 .mainmenu ul#nav > li > a::before, .user-login-menu ul li a::before ,.home-4 .features-img span,.home-4 .features-img input[type="button"],.home-4 #scrollUp,.home-4 .button-shop a i,.home-4 .product-cart-drop > a{
+  background: #1BB8EC!important;
+}
+
+
+
+
+
+
+/* color css */
+.home-4 .mainmenu ul#nav li .mega-menu-shop > span > a,.home-4 .fea-rating a i,.home-4 .tes-author span.tes-title a{
+  color: #1BB8EC;
+}
+
+.home-4 .header-top-menu ul li a,.home-4 span.search-button i,.home-4 span.cart-empty,.home-4 .cart-empty i,.home-4 .cart-empty > a{color:#1BB8EC}
+
+.home-4 .header-top-menu ul li ul li a {
+  color: #d5d5d5;
+}
+
+.home-4 a.read-more {
+  border: 2px solid #1BB8EC;
+}
+.home-4 a.read-more:hover {
+  background: #1BB8EC none repeat scroll 0 0;
+}
+.home-4 .video-text h1 strong {
+  border-bottom: 3px solid #1BB8EC;
+}
+.home-4 .readon.white {
+  border: 2px solid #1BB8EC;
+  color: #fff;
+}
+.home-4 .readon.border:hover {
+  background-color: #1BB8EC;
+  color: #fff;
+}

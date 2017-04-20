@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+</head>
+<body>
+<div data-ng-controller="DashboardController">
+	<select multiple>
+		<option value="">Choose</option>
+		<option value="selectall">Select all</option>
+		<option ng-repeat="option in options" value="option.value">{{option.name}}</option>
+	</select>
+</div>
+<!--
+<select multiple  id="composeProfiles"  ng-change="toggleAll()" ng-model="selectprofile">
+	<option value="" disabled selected>Select Your Account</option>
+
+	<option ng-model="isAllSelected" ng-click="toggleAll()">Select All</option>
+
+	<option ng-repeat="profile in lstProfiles | filter:{profileType:0} | filter:{profileType:'!10'} | filter:{profileType:'!11'}" value="fb_{{profile.profileId}}" my-repeat-dropdown-directive>  {{profile.profileName}}  </option>
+	<option ng-repeat="profile in lstProfiles | filter:{profileType:1} | filter:{profileType:'!10'} | filter:{profileType:'!11'}" value="fb_{{profile.profileId}}" my-repeat-dropdown-directive>  {{profile.profileName}} </option>
+	<option ng-repeat="profile in lstProfiles | filter:{profileType:2}" value="tw_{{profile.profileId}}" my-repeat-dropdown-directive>  {{profile.profileName}} </option>
+	<option ng-repeat="profile in lstProfiles | filter:{profileType:3}" value="lin_{{profile.profileId}}" my-repeat-dropdown-directive>  {{profile.profileName}} </option>
+	<option ng-repeat="profile in lstProfiles | filter:{profileType:4}" value="Cmpylinpage_{{profile.profileId}}" my-repeat-dropdown-directive>  {{profile.profileName}} </option>
+</select>
+-->
+
+</body>
+
+<script>
+	SocioboardApp.controller('DashboardController', function ($rootScope, $scope) {
+		$scope.$on('$viewContentLoaded', function () {
+			$rootScope.options = [
+				{'name': "1", 'value': "1"},
+				{'name': "2", 'value': "2"},
+				{'name': "3", 'value': "3"}
+			];
+		});
+	});
+</script>
+</html>
